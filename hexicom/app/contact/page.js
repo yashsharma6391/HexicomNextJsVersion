@@ -3,7 +3,7 @@ import React from 'react'
 export const metadata={
     title:"Contact Information",
     description:"for contact for work with hexicom and know more about our comapany",
-    keywords: ['nextjs', 'seo', 'homepage'],
+    keywords: ['nextjs', 'seo', 'Contact'],
 }
 const Contact = () => {
   return (
