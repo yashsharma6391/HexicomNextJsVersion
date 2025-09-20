@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Hexicom – Bridging Technology & Infrastructure",
+  title: "Hexicom Integrated Bridging of Technology & Infrastructure",
   description: "Official website of Hexicom Infrastructure India Pvt. Ltd",
 };
 
