@@ -20,6 +20,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Hexicom Integrated Bridging of Technology & Infrastructure",
   description: "Official website of Hexicom Infrastructure India Pvt. Ltd",
+   icons: {
+    icon: '/favicon.ico', // must be in public folder
+  },
 };
 
 export default function RootLayout({ children }) {
