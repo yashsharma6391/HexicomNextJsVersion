@@ -1,4 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
+const addedUrls = new Set();
+
 module.exports = {
   siteUrl: 'https://www.hexicom.in',
   generateRobotsTxt: true,
@@ -14,6 +16,9 @@ module.exports = {
     if (newPath === '/contactpage/contactpage') newPath = '/contact';
     if (newPath === '/homepage/homepage') newPath = '/';
     if (newPath === '/service/servicepage') newPath = '/services';
+
+     if (addedUrls.has(newPath)) return null;
+    addedUrls.add(newPath);
 
     return {
       loc: newPath, // lowercase path
