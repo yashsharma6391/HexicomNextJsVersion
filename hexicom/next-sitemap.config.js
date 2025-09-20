@@ -7,8 +7,16 @@ module.exports = {
   priority: 0.7,
   transform: async (config, path) => {
     // convert Next.js paths to lowercase
+     let newPath = path.toLowerCase();
+
+    // Map messy URLs to clean, SEO-friendly URLs
+    if (newPath === '/about/about') newPath = '/about';
+    if (newPath === '/contactpage/contactpage') newPath = '/contact';
+    if (newPath === '/homepage/homepage') newPath = '/';
+    if (newPath === '/service/servicepage') newPath = '/services';
+
     return {
-      loc: path.toLowerCase(), // lowercase path
+      loc: newPath, // lowercase path
       changefreq: config.changefreq,
       priority: config.priority,
       lastmod: new Date().toISOString(),
