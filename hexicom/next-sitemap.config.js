@@ -1,8 +1,17 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.hexicom.in',   // <-- change to your real domain
-  generateRobotsTxt: true,              // also create robots.txt automatically
-  sitemapSize: 7000,                     // optional, splits big sitemaps
+  siteUrl: 'https://www.hexicom.in',
+  generateRobotsTxt: true,
+    sitemapSize: 5000,
   changefreq: 'weekly',
   priority: 0.7,
+  transform: async (config, path) => {
+    // convert Next.js paths to lowercase
+    return {
+      loc: path.toLowerCase(), // lowercase path
+      changefreq: config.changefreq,
+      priority: config.priority,
+      lastmod: new Date().toISOString(),
+    };
+  },
 };
