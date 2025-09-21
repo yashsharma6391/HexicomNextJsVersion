@@ -12,12 +12,12 @@ export const AboutData = [
     //     profileDetail:"2025"
 
     // },
-      {
-        logo: "legal.png",
-        profileName:"Legal Entity Status",
-        profileDetail:"Private Limited – Company Limited by shares."
+    //   {
+    //     logo: "legal.png",
+    //     profileName:"Legal Entity Status",
+    //     profileDetail:"Private Limited – Company Limited by shares."
 
-    },
+    // },
       {
         logo: "main_area.png",
         profileName:"Main Area of Activities of Business",
