@@ -111,6 +111,9 @@
     width: 100%;
     
 }
+ .service_detail_list li{
+     margin-bottom:10px;
+ }
 .why_choose_hexicom{
     width: 100%;
     height: 100%;
