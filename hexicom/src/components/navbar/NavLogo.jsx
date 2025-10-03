@@ -30,7 +30,7 @@ const NavLogo = () => {
       </div>
        <div className={styles.registerIcon}>&reg;</div>
        <div className={styles.tagline}>
-          A Integrated Bridging of Technology & Infrastructure”
+          A Integrated Bridging of Technology & Infrastructure
         </div>
     </div>
   )
