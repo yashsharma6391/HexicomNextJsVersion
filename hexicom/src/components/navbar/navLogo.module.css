@@ -89,6 +89,14 @@
   display: inline-block;
   overflow: hidden;       /* so the effect doesn’t spill outside the logo */
 }
+.registerIcon{
+  position: relative;
+  box-sizing: border-box;
+  bottom: 15px;
+  /* height: 10px; */
+
+  color: #007bff;
+}
 
 
 
@@ -130,7 +138,7 @@
     .tagline{
         font-size: 7px;
         font-weight:bold;
-        right: 123px;
+        /* right: 123px; */
     }
     .arrows{
         bottom: 38px;
@@ -139,6 +147,14 @@
 @media screen and (max-width:370px) {
   .logo_img{
     width: 65px;
+  }
+  .tagline{
+    right: 129px;
+  }
+  .registerIcon{
+    bottom: 10px;
+    font-size: 11px;
+    
   }
   
 }
