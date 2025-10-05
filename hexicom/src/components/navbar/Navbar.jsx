@@ -40,7 +40,7 @@ const Navbar = ({setSidebarfunc, sidebar}) => {
         <NavLogo/>
       </div>
       <div className={styles.nav_menu}>
-        {NavMenu.map((item, index) => {
+        {NavMenu.map((item, index) => (
            <React.Fragment key={index}>
           {/* return (
             <Link className={styles.nav_menu_item} key={index} href={item.path}  scroll={true} >
@@ -82,7 +82,7 @@ const Navbar = ({setSidebarfunc, sidebar}) => {
     
 
                  
-        })}
+        ))}
       </div>
       {/* -------mobile menu----- */}
       <div className={styles.mobile_menu}>
