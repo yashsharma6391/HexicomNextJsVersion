@@ -77,6 +77,7 @@ const Navbar = ({setSidebarfunc, sidebar}) => {
               >
                 {item.name}
               </Link>
+          )}
             </React.Fragment>
     
 
