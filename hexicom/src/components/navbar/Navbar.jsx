@@ -10,10 +10,11 @@ import { FiX } from "react-icons/fi";
 const Navbar = ({setSidebarfunc, sidebar}) => {
       const NavMenu = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: "About Us", path: "/about" },
+    { name: "Our Services", path: "/services" },
+    { name: "Contact Us", path: "/contact" },
     // { name: "Address", path: "/address" },
-    { name: "Services", path: "/services" },
+    
     //  {name: "Home"},
     //  {name: "Home"},
   ];
