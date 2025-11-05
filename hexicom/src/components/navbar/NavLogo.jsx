@@ -4,7 +4,7 @@ const NavLogo = () => {
   return (
      <div className={styles.companylogo}>
       <div className={styles.logo_img}>
-        <img src="Loogo.png" alt="" />
+        <img src="logo.png" alt="" />
       </div>
       <div className={styles.companyname}>
         <div className={styles.Letters}>
@@ -13,7 +13,7 @@ const NavLogo = () => {
           <div className={styles.leter}>x</div>
           <div className={styles.leter}>i</div>
           <div className={styles.leter}>c</div>
-          <div className={styles.leter}><img src="Loogo.png" alt="" /></div>
+          <div className={styles.leter}><img src="logo.png" alt="" /></div>
           <div className={styles.leter}>m</div>
         </div>
         <div className={styles.arrows}>
