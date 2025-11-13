@@ -30,7 +30,7 @@ export const contactItems = [
     title: "Contact Person Directorate",
     detailstitle: "Mr. Dheeraj Sharma | Mob 9990393219",
     detailslink:"Dheeraj@hexicom.in",
-    link: "Dheeraj@hexicom.in",
+    link: "ys7097569@gmail.com",
   },
   // {
   //   icon: IoPersonSharp,
