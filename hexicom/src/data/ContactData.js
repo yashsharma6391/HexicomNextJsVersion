@@ -23,14 +23,14 @@ export const contactItems = [
     title: "Website",
     detailstitle: "",
     detailslink:"www.hexicom.in",
-    link: "",
+    link: "www.hexicom.in",
   },
   {
     icon: IoPersonSharp,
     title: "Contact Person Directorate",
     detailstitle: "Mr. Dheeraj Sharma | Mob 9990393219",
     detailslink:"Dheeraj@hexicom.in",
-    link: "ys7097569@gmail.com",
+    // link: "ys7097569@gmail.com",
   },
   // {
   //   icon: IoPersonSharp,
