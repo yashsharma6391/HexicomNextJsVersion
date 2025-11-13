@@ -15,7 +15,7 @@ export const contactItems = [
     title: "Business enquiry email",
     detailstitle: "",
     detailslink:"business@hexicom.in",
-    link: "",
+    link: "business@hexicom.in",
   },
   {
     icon: BsGlobe,
@@ -30,7 +30,7 @@ export const contactItems = [
     title: "Contact Person Directorate",
     detailstitle: "Mr. Dheeraj Sharma | Mob 9990393219",
     detailslink:"Dheeraj@hexicom.in",
-    link: "",
+    link: "Dheeraj@hexicom.in",
   },
   // {
   //   icon: IoPersonSharp,
