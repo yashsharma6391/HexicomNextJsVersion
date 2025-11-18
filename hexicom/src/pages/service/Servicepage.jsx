@@ -3,8 +3,10 @@ import React from 'react'
 import { useEffect, useRef, useState  } from "react";
 import styles from './servicepage.module.css';
 import Aos from 'aos';
-import { ServicesData } from '@/src/data/ServicesData';
+// import { ServicesData } from '@/src/data/ServicesData';
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 export const Servicepage = () => {
+       const [data, setData] = useState([])
       const refs = useRef([]);
   const [visible, setVisible] = useState([]);
   useEffect(() => {
@@ -13,8 +15,30 @@ export const Servicepage = () => {
       once: true, // run animation only once
     });
   }, []);
+       useEffect(()=>{
+const fetchServices = async () => {
+    try {
+      console.log(BACKEND_URL)
+      const res = await fetch(`${BACKEND_URL}/api/services/services`);
+      if (!res.ok) {
+        throw new Error("Failed to fetch services");
+      }
+      const servicesData = await res.json();
+      console.log(servicesData)
+
+      setData(servicesData);
+        //  console.log(data?.ServiceDetails) // store fetched data in state
+    } catch (error) {
+      console.error("Error fetching services:", error);
+      setData([]); // optional fallback
+    }
+  };
+
+  fetchServices();
+  },[])
   
-    useEffect(() => {
+   useEffect(() => {
+      if (!data.length) return; 
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -30,7 +54,7 @@ export const Servicepage = () => {
 
     refs.current.forEach((el) => el && observer.observe(el));
     return () => observer.disconnect();
-  }, []);
+  }, [data]);
   return (
     <div className={styles.services_page}>
      
@@ -49,7 +73,7 @@ export const Servicepage = () => {
             </p>
           </div>
           <div className={styles.service_grid}>
-            {ServicesData.map((category, ind) => (
+            {data.map((category, ind) => (
               <div    className={`${styles.single_service_card} ${
                   visible.includes(ind) ? styles["in-view"] : ""
                 }`}
@@ -61,7 +85,7 @@ export const Servicepage = () => {
                 </div>
                 <div className={styles.service_name}>{category.ServiceName}</div>
                 <div className={styles.service_type}>
-                 {category.ServiceType}
+                 Service Type: {category.ServiceType}
                 </div>
                 <div className={styles.services_details}>
                   <h3>Services:</h3>
