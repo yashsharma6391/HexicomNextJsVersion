@@ -3,7 +3,7 @@ import React from 'react'
 import { useEffect, useRef, useState  } from "react";
 import styles from './servicepage.module.css';
 import Aos from 'aos';
-// import { ServicesData } from '@/src/data/ServicesData';
+import { Service } from '@/src/data/ServicesData';
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 export const Servicepage = () => {
        const [data, setData] = useState([])
@@ -30,7 +30,7 @@ const fetchServices = async () => {
         //  console.log(data?.ServiceDetails) // store fetched data in state
     } catch (error) {
       // console.error("Error fetching services:", error);
-      setData([]); // optional fallback
+      setData(Service); // optional fallback
     }
   };
 
@@ -81,7 +81,7 @@ const fetchServices = async () => {
                 data-index={ind}
                 ref={(el) => (refs.current[ind] = el)}>
                 <div className={styles.service_logo}>
-                  <img src={category.Image.url} alt="" />
+                  <img src={category.Image.url || category.Image} alt="" />
                 </div>
                 <div className={styles.service_name}>{category.ServiceName}</div>
                 <div className={styles.service_type}>
