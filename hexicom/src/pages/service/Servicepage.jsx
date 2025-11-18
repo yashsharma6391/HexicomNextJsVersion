@@ -24,12 +24,12 @@ const fetchServices = async () => {
         throw new Error("Failed to fetch services");
       }
       const servicesData = await res.json();
-      console.log(servicesData)
+      // console.log(servicesData)
 
       setData(servicesData);
         //  console.log(data?.ServiceDetails) // store fetched data in state
     } catch (error) {
-      console.error("Error fetching services:", error);
+      // console.error("Error fetching services:", error);
       setData([]); // optional fallback
     }
   };
