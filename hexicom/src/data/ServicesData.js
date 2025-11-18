@@ -1,4 +1,4 @@
-export const ServicesData = [
+export const Service = [
     {
         Image:"itand_telecom.jpeg",
         ServiceName:"IT &Telecom",
