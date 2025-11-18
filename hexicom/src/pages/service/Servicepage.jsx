@@ -91,7 +91,7 @@ const fetchServices = async () => {
                   <h3>Services:</h3>
                   <div className={styles.service_detail_list}>
                     <ul>
-                      {category.ServivceDetails.map((list, i)=>(
+                      {category.ServiceDetails.map((list, i)=>(
                         <li key={i}>
                         {list}
                       </li>
