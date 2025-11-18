@@ -81,7 +81,7 @@ const fetchServices = async () => {
                 data-index={ind}
                 ref={(el) => (refs.current[ind] = el)}>
                 <div className={styles.service_logo}>
-                  <img src={category.Image} alt="" />
+                  <img src={category.Image.url} alt="" />
                 </div>
                 <div className={styles.service_name}>{category.ServiceName}</div>
                 <div className={styles.service_type}>
