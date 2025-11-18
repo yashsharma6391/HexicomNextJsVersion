@@ -18,7 +18,7 @@ export const Servicepage = () => {
        useEffect(()=>{
 const fetchServices = async () => {
     try {
-      console.log(BACKEND_URL)
+      // console.log(BACKEND_URL)
       const res = await fetch(`${BACKEND_URL}/api/services/services`);
       if (!res.ok) {
         throw new Error("Failed to fetch services");
