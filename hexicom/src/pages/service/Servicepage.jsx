@@ -4,7 +4,8 @@ import { useEffect, useRef, useState  } from "react";
 import styles from './servicepage.module.css';
 import Aos from 'aos';
 // import { Service } from '@/src/data/ServicesData';
-import { Service } from '@/data/ServiceData';
+// import { Service } from '@/data/ServiceData';
+import { Service } from '../../data/ServiceData';
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 export const Servicepage = () => {
        const [data, setData] = useState([])
