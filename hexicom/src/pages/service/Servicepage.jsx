@@ -62,7 +62,7 @@ const fetchServices = async () => {
      
       <div className={styles.services_container} data-aos="fade-up">
         <div className={styles.service_content}>
-          <h1>OUR SERVICES</h1>
+          <h1>OUR Solutions</h1>
           <div className={styles.service_para}>
             <p>
               At H£XICOM, we provide end-to-end, future-ready solutions across
