@@ -9,9 +9,9 @@ import { FiX } from "react-icons/fi";
 
 const Navbar = ({setSidebarfunc, sidebar}) => {
       const NavMenu = [
-    { name: "Home", path: "/" },
+    { name: "Our Journey", path: "/" },
     { name: "About Us", path: "/about" },
-    { name: "Our Services", path: "/services" , dropdown: true,
+    { name: "Solutions", path: "/services" , dropdown: true,
       subItems: [
         { name: "IT &Telecom", path: "" },//"/services/IT &Telecom"
         { name: "IT Networking & Managed Services", path: "" },//"/services/IT Networking & Managed Services"
