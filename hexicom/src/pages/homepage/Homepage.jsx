@@ -25,7 +25,7 @@ const Homepage = ({sidebar, setSidebarfunc }) => {
      
       {/* <Sidebar sidebar={sidebar} /> */}
       <div className={styles.AboutCompany}>
-        <h1 data-aos="fade-up">Company Overview</h1>
+        <h1 data-aos="fade-up">Our Journey</h1>
         <p data-aos="fade-up" className={styles.AboutCompanyPara}>
                HEXICOM (HIIPL) represents the culmination of nearly two decades of
           diverse industry experience, visionary leadership, and an unwavering
