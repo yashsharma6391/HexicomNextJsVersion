@@ -87,7 +87,7 @@ const fetchServices = async () => {
                 </div>
                 <div className={styles.service_name}>{category.ServiceName}</div>
                 <div className={styles.service_type}>
-                 Service Type: {category.ServiceType}
+                  {category.ServiceType}
                 </div>
                 <div className={styles.services_details}>
                   <h3>Services:</h3>
