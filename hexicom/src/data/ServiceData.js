@@ -109,5 +109,20 @@ export const Service = [
             
 
         ]
+    },
+    {
+        Image:"satcom.png",
+        ServiceName:"SATCOM",
+        ServiceType:"Solution Type: End-To-End Satcom Solutions ",
+        ServiceDetails:[
+            "LOS Site Survey .",
+            "VSAT Foundation ",
+            "Motorized and Non-Motorized Antenna Installations ",
+            "Cable Tray / Wiring / Electrifications / other equipment installations ",
+            "Commissioning of VSAT .",
+            " Acceptances test / NOCC Jobs.",
+            
+        ] 
     }
+    
 ]
