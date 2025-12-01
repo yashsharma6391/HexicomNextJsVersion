@@ -5,7 +5,7 @@ export const metadata={
     description:"Details about our company services and know more about our services",
     keywords: ['nextjs', 'seo', 'service'],
 }
-const Service = () => {
+const Solutions = () => {
   return (
     <div>
         <Servicepage/>
@@ -13,4 +13,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default Solutions
