@@ -27,7 +27,54 @@ const Homepage = ({sidebar, setSidebarfunc }) => {
       <div className={styles.AboutCompany}>
         <h1 data-aos="fade-up">Company Overview</h1>
         <p data-aos="fade-up" className={styles.AboutCompanyPara}>
-          Incorporated in 2025, our company represents the culmination of nearly
+               HEXICOM (HIIPL) represents the culmination of nearly two decades of
+          diverse industry experience, visionary leadership, and an unwavering
+          commitment to excellence. Founded by Mr. Dheeraj Sharma, a seasoned
+          professional with 19+ years of hands-on expertise across India’s
+          service and infrastructure ecosystem, the company brings
+          transformative energy to the SITC domain across multiple sectors,
+          including IT & Telecom Infrastructure, Electrical and Automation, EV
+          Charging Stations, Networking, Logistics, Solar EPC, Repair &
+          Refurbishment, Optical Fibre Networks, Electro-Mechanical Civil Works,
+          and Satcom Technologies. Mr. Sharma began his professional journey in
+          2010, stepping into the industry as a Marketing Director and later
+          serving in various CXO roles across prominent organizations. Over the
+          years, he has played pivotal roles in driving mission-critical
+          projects, building high-performing teams, and shaping strategic
+          roadmaps that delivered measurable impact across both government and
+          private sector environments. His leadership has always been defined by
+          a powerful combination of technical depth and business acumen,
+          enabling him to convert complex challenges into scalable, sustainable,
+          and future-ready solutions. Inspired by the insights and lessons of
+          nearly two decades, Mr. Sharma envisioned an organization that goes
+          beyond conventional service delivery. This vision led to the
+          establishment of HEXICOM, a platform built to deliver high-impact,
+          value-driven, and technology-enabled solutions. More than just a
+          company, HEXICOM is the embodiment of a proven track record,
+          deep-rooted industry knowledge, and a passion for innovation,
+          discipline, and execution excellence. Today, we stand as a dynamic,
+          multi-domain service provider delivering end-to-end integrated
+          solutions—from design and deployment to operations, maintenance, and
+          optimization. Our cross-sector capabilities enable us to support
+          large-scale infrastructure programs as well as agile,
+          technology-focused initiatives, all with a strong emphasis on client
+          satisfaction, safety, and long-term value creation. What truly sets us
+          apart is our approach. We believe success is achieved by aligning the
+          best people, processes, and performance. Our team comprises skilled,
+          committed professionals who embody our core values of Trust, Respect,
+          and Accountability—principles that guide every project and every
+          partnership. With a leadership team deeply experienced in business
+          development, strategic alliances, project execution, and market
+          expansion, HEXICOM is well-equipped to operate confidently in an
+          ever-evolving technological and business landscape. Our clarity of
+          vision, depth of expertise, and uncompromising focus on quality enable
+          us to navigate complex environments with precision and reliability. As
+          a company built on a strong legacy of experience, we are committed to
+          responsible growth, meaningful partnerships, and consistently raising
+          industry standards. Our ambition is not merely to participate in the
+          market— but to shape it, elevate it, and transform it, one successful
+          project at a time.
+          {/* Incorporated in 2025, our company represents the culmination of nearly
           two decades of industry experience, visionary leadership, and a
           relentless pursuit of excellence. Founded by Mr. Dheeraj Sharma, a
           seasoned professional with over 15 years of hands-on expertise across
@@ -72,7 +119,7 @@ const Homepage = ({sidebar, setSidebarfunc }) => {
           of experience, we are committed to growing responsibly, building
           strong partnerships, and continuously raising the bar of excellence in
           everything we do. Our goal is not just to participate in the market —
-          but to transform it, one successful project at a time.
+          but to transform it, one successful project at a time. */}
         </p>
       </div>
 
