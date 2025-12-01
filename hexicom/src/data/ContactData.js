@@ -8,7 +8,7 @@ export const contactItems = [
   {
     icon: FaPhoneAlt,
     title: "Phone",
-    detailstitle: "Land line: +91-1204177091 | Mr.Dheeraj Sharma: 9990393219",
+    detailstitle: "Land line: +91-1204177091 |  9990393219",
   },
   {
     icon: MdEmail,
