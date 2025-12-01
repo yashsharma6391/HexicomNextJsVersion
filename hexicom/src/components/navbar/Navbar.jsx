@@ -10,7 +10,7 @@ import { FiX } from "react-icons/fi";
 const Navbar = ({setSidebarfunc, sidebar}) => {
       const NavMenu = [
     { name: "Our Journey", path: "/" },
-    { name: "About Us", path: "/about" },
+    // { name: "About Us", path: "/about" },
     { name: "Solutions", path: "/services" , dropdown: true,
       subItems: [
         { name: "IT &Telecom", path: "" },//"/services/IT &Telecom"
