@@ -8,7 +8,7 @@ export const contactItems = [
   {
     icon: FaPhoneAlt,
     title: "Phone",
-    detailstitle: "+91-1204177091",
+    detailstitle: "Land line: +91-1204177091 | Mr.Dheeraj Sharma: 9990393219",
   },
   {
     icon: MdEmail,
@@ -17,21 +17,21 @@ export const contactItems = [
     detailslink:"business@hexicom.in",
     link: "mailto:business@hexicom.in",
   },
-  {
-    icon: BsGlobe,
-    iconClass: "Globe",
-    title: "Website",
-    detailstitle: "",
-    detailslink:"www.hexicom.in",
-    link: "https://hexicom.in",
-  },
-  {
-    icon: IoPersonSharp,
-    title: "Contact Person Directorate",
-    detailstitle: "Mr. Dheeraj Sharma | Mob 9990393219",
-    detailslink:"Dheeraj@hexicom.in",
-    link: "mailto:Dheeraj@hexicom.in",
-  },
+  // {
+  //   icon: BsGlobe,
+  //   iconClass: "Globe",
+  //   title: "Website",
+  //   detailstitle: "",
+  //   detailslink:"www.hexicom.in",
+  //   link: "https://hexicom.in",
+  // },
+  // {
+  //   icon: IoPersonSharp,
+  //   title: "Contact Person Directorate",
+  //   detailstitle: "Mr. Dheeraj Sharma | Mob 9990393219",
+  //   detailslink:"Dheeraj@hexicom.in",
+  //   link: "mailto:Dheeraj@hexicom.in",
+  // },
   // {
   //   icon: IoPersonSharp,
   //   title: "Contact Person Directorate alternate",
