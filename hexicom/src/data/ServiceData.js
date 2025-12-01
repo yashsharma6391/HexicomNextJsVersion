@@ -111,7 +111,7 @@ export const Service = [
         ]
     },
     {
-        Image:"satcom.png",
+        Image:"Satcom.jpg",
         ServiceName:"SATCOM",
         ServiceType:"Solution Type: End-To-End Satcom Solutions ",
         ServiceDetails:[
