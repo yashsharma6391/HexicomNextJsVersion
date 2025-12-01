@@ -21,7 +21,7 @@ export const Servicepage = () => {
 const fetchServices = async () => {
     try {
       // console.log(BACKEND_URL)
-      const res = await fetch(`${BACKEND_URL}/api/services/services`);
+      const res = await fetch(`${BACKEND_URL}/api/services/service`);
       if (!res.ok) {
         throw new Error("Failed to fetch services");
       }
