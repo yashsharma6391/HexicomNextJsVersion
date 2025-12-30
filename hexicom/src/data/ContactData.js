@@ -8,7 +8,7 @@ export const contactItems = [
   {
     icon: FaPhoneAlt,
     title: "Phone",
-    detailstitle: "+91-1204177091 
+    detailstitle: "+91-1204177091" 
       //9990393219",
   },
   {
