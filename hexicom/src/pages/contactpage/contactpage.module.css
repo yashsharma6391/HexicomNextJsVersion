@@ -2,6 +2,7 @@
   padding-top: 72px;
   width: 100%;
   z-index: 9;
+  height: 100vh;
   background: linear-gradient(135deg, #153c65 40%, #007bff 50%, #153c65 75%);
 }
 .contact {
